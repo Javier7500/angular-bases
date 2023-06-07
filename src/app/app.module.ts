@@ -3,8 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { CounterModule } from './counter/components/counter.module';
 import { HeroeModule } from './heroes/heroes.module';
+import { DbzModule } from './dbz/dbz.module';
 
 import { AppComponent } from './app.component';
+
 
 
 
@@ -16,6 +18,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     CounterModule,
     HeroeModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
